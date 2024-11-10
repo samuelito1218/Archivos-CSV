@@ -1,0 +1,21 @@
+idCliente,nombre,edad,telefono,sexo,tieneTitulo
+1,Juan Perez,30,3001234567,M,true
+2,Maria Gomez,25,3007654321,F,false
+3,Carlos Ruiz,40,3101234567,M,true
+4,Ana Martinez,28,3017654321,F,false
+5,Pedro Sanchez,35,3111234567,M,true
+6,Lucia Fernandez,22,3027654321,F,false
+7,Diego Lopez,45,3121234567,M,true
+8,Sofia Ramirez,29,3031234567,F,true
+9,Alberto Torres,34,3131234567,M,false
+10,Laura Ortiz,27,3041234567,F,true
+11,Daniela Pineda,31,3051234567,F,false
+12,Fernando Gonzalez,38,3061234567,M,true
+13,Claudia Medina,24,3071234567,F,false
+14,Ricardo Perez,50,3081234567,M,true
+15,Elena Rodriguez,33,3091234567,F,false
+16,Manuel Gutierrez,28,3101234567,M,true
+17,Patricia Vega,26,3117654321,F,true
+18,Gabriel Garcia,42,3127654321,M,false
+19,Valentina Morales,23,3137654321,F,true
+20,Felipe Alvarez,37,3147654321,M,false
