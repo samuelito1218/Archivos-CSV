@@ -1,21 +1,22 @@
-idProducto,nombre,precio
-1,Café Molido 250g,25000
-2,Taza de 12.5 oz,15000
-3,Prensa Francesa,80000
-4,Termo 500ml,30000
-5,Galletas de Café,12000
-6,Café en Grano 500g,45000
-7,Azúcar Morena 1kg,8000
-8,Miel de Abeja 500ml,20000
-9,Café Instantáneo 100g,10000
-10,Café Orgánico 250g,30000
-11,Taza de Cerámica,18000
-12,Tetera de Vidrio,70000
-13,Leche en Polvo 400g,12000
-14,Té Verde 100g,15000
-15,Cucharilla de Café,5000
-16,Café Descafeinado 200g,25000
-17,Chocolate en Polvo 250g,22000
-18,Filtro de Café,10000
-19,Vaso Térmico 350ml,25000
-20,Café Expreso 250g,27000
+idProducto,nombre,precio,idCategoria,idProveedor
+1,Café Molido,20,1,1
+2,Prensa Francesa,50,2,2
+3,Taza,10,3,1
+4,Café en Grano,22,1,1
+5,Filtro de Café,8,2,2
+6,Tetera,30,2,3
+7,Taza Cerámica,15,3,1
+8,Café Instantáneo,18,1,1
+9,Termo,25,3,2
+10,Cucharas de Café,5,2,3
+11,Café Orgánico,28,1,1
+12,Portavasos,7,3,2
+13,Molinillo de Café,35,2,3
+14,Vaso Térmico,12,3,1
+15,Café Espresso,26,1,1
+16,Café Descafeinado,19,1,1
+17,Set de Tazas,45,3,2
+18,Batidor de Leche,22,2,3
+19,Café Arábica,30,1,1
+20,Espumador,20,2,2
+

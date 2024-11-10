@@ -1,21 +1,22 @@
-idProveedor,nombre
-1,Distribuidora Café
-2,Café y Accesorios SAS
-3,La Casa del Café
-4,Alimentos Gourmet
-5,Importadora de Termos
-6,Cafés Especiales Ltda
-7,Productos del Hogar
-8,Distribuciones y Servicios
-9,Almacenes Café Express
-10,Calidad Gourmet
-11,Comercializadora del Valle
-12,Sabor y Tradición
-13,Exportadora Colombiana
-14,Productos Andinos
-15,La Boutique del Café
-16,Industria Colombiana S.A.
-17,El Café de Mi Tierra
-18,Aromas y Sabores
-19,Productos de la Sierra
-20,Naturales de Colombia
+idProveedor,nombre,idCiudad
+1,Distribuidora Café,1
+2,Café y Accesorios SAS,2
+3,La Casa del Café,3
+4,Alimentos Gourmet,4
+5,Importadora de Termos,5
+6,Cafés Especiales Ltda,6
+7,Productos del Hogar,7
+8,Distribuciones y Servicios,8
+9,Almacenes Café Express,9
+10,Calidad Gourmet,10
+11,Comercializadora del Valle,11
+12,Sabor y Tradición,12
+13,Exportadora Colombiana,13
+14,Productos Andinos,14
+15,La Boutique del Café,15
+16,Industria Colombiana S.A.,16
+17,El Café de Mi Tierra,17
+18,Aromas y Sabores,18
+19,Productos de la Sierra,19
+20,Naturales de Colombia,20
+
