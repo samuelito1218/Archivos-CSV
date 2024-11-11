@@ -1,0 +1,4 @@
+MATCH (c:Cliente {idCliente: 1})-[:HA_VISTO]->(p:Producto)-[:PERTENECE_A]->(cat:Categoria)
+MATCH (recomendacion:Producto)-[:PERTENECE_A]->(cat)
+WHERE NOT (c)-[:HA_VISTO]->(recomendacion)
+RETURN DISTINCT recomendacion.nombre AS producto_recomendado;

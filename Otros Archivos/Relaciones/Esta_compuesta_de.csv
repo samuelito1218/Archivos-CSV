@@ -1,0 +1,3 @@
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/samuelito1218/Archivos-CSV/refs/heads/main/OrdenProducto.csv' AS row
+MATCH (o:Orden {idOrden: toInteger(row.idOrden)}), (p:Producto {idProducto: toInteger(row.idProducto)})
+CREATE (o)-[:ESTÁ_COMPUESTA_DE {cantidad: toInteger(row.cantidad)}]->(p);

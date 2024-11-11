@@ -1,0 +1,2 @@
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/samuelito1218/Archivos-CSV/refs/heads/main/Producto.csv' AS row
+CREATE (:Producto {idProducto: toInteger(row.idProducto), nombre: row.nombre, precio: toFloat(row.precio), idCategoria: toInteger(row.idCategoria), idProveedor: toInteger(row.idProveedor)});

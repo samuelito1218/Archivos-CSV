@@ -1,0 +1,2 @@
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/samuelito1218/Archivos-CSV/main/Ciudad.csv' AS row
+CREATE (:Ciudad {idCiudad: toInteger(row.idCiudad), nombre: row.nombre, pais: row.pais});

@@ -1,0 +1,2 @@
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/samuelito1218/Archivos-CSV/refs/heads/main/Clientes.csv' AS row
+CREATE (:Cliente {idCliente: toInteger(row.idCliente), nombre: row.nombre, edad: toInteger(row.edad), telefono: row.telefono, sexo: row.sexo, tieneTitulo: row.tieneTitulo = "true", idCiudad: toInteger(row.idCiudad), idEstudio: toInteger(row.idEstudio)});

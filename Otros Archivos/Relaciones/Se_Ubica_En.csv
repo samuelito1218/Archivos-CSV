@@ -1,0 +1,3 @@
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/samuelito1218/Archivos-CSV/main/Proveedor.csv' AS row
+MATCH (prov:Proveedor {idProveedor: toInteger(row.idProveedor)}), (ciudad:Ciudad {idCiudad: toInteger(row.idCiudad)})
+CREATE (prov)-[:UBICADO_EN]->(ciudad);
