@@ -1,3 +1,0 @@
-LOAD CSV WITH HEADERS FROM 'https://ruta_github/Orden.csv' AS row
-MATCH (c:Cliente {idCliente: toInteger(row.idCliente)}), (o:Orden {idOrden: toInteger(row.idOrden)})
-CREATE (c)-[:HA_CREADO]->(o);

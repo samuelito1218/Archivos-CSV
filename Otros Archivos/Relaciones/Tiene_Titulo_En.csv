@@ -1,3 +1,0 @@
-LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/samuelito1218/Archivos-CSV/main/Clientes.csv' AS row
-MATCH (c:Cliente {idCliente: toInteger(row.idCliente)}), (ciudad:Ciudad {idCiudad: toInteger(row.idCiudad)})
-CREATE (c)-[:VIVE_EN]->(ciudad);

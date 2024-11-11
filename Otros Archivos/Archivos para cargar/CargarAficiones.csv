@@ -1,2 +1,0 @@
-LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/samuelito1218/Archivos-CSV/main/Aficion.csv' AS row
-CREATE (:Aficion {idAficion: toInteger(row.idAficion), nombre: row.nombre, tipo: row.tipo});

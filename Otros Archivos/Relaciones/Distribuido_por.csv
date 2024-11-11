@@ -1,3 +1,0 @@
-LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/samuelito1218/Archivos-CSV/main/Producto.csv' AS row
-MATCH (p:Producto {idProducto: toInteger(row.idProducto)}), (prov:Proveedor {idProveedor: toInteger(row.idProveedor)})
-CREATE (p)-[:DISTRIBUIDO_POR]->(prov);

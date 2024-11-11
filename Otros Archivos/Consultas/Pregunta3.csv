@@ -1,3 +1,0 @@
-MATCH (c:Cliente {tieneTitulo: true})-[:HA_CREADO]->(o:Orden)-[r:ESTÁ_COMPUESTA_DE]->(p:Producto)
-RETURN p.nombre AS producto, SUM(r.cantidad) AS total_comprado
-ORDER BY total_comprado DESC;

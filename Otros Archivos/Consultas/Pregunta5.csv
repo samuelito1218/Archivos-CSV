@@ -1,4 +1,0 @@
-MATCH (c:Cliente {idCliente: 1})-[:HA_CREADO]->(:Orden)-[:ESTÁ_COMPUESTA_DE]->(p:Producto)
-MATCH (p)-[:RELACIONADO_CON]-(recomendacion:Producto)
-WHERE NOT (c)-[:HA_VISTO]->(recomendacion) AND NOT (c)-[:HA_CREADO]->(:Orden)-[:ESTÁ_COMPUESTA_DE]->(recomendacion)
-RETURN DISTINCT recomendacion.nombre AS producto_recomendado;
