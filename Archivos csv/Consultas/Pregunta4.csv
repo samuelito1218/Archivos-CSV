@@ -1,0 +1,4 @@
+MATCH (c:Cliente)-[:VIVE_EN]->(ciudad:Ciudad)<-[:UBICADO_EN]-(prov:Proveedor)<-[:DISTRIBUIDO_POR]-(p:Producto)
+MATCH (c)-[:HA_CREADO]->(o:Orden)-[:ESTÁ_COMPUESTA_DE]->(p)
+RETURN p.nombre AS producto, COUNT(o) AS cantidad_ordenes
+ORDER BY cantidad_ordenes DESC;

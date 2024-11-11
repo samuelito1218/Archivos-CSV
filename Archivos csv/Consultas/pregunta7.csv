@@ -1,0 +1,4 @@
+MATCH (c:Cliente {idCliente: 1})-[:VIVE_EN]->(ciudad:Ciudad)<-[:VIVE_EN]-(vecino:Cliente)
+MATCH (vecino)-[:HA_CREADO]->(:Orden)-[:ESTÁ_COMPUESTA_DE]->(recomendacion:Producto)
+WHERE NOT (c)-[:HA_CREADO]->(:Orden)-[:ESTÁ_COMPUESTA_DE]->(recomendacion)
+RETURN DISTINCT recomendacion.nombre AS producto_recomendado;
