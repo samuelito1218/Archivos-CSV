@@ -1,0 +1,2 @@
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/samuelito1218/Archivos-CSV/refs/heads/main/Proveedor.csv' AS row
+CREATE (:Proveedor {idProveedor: toInteger(row.idProveedor), nombre: row.nombre});
